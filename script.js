@@ -74,8 +74,7 @@ function getFormData(object) {
 }
 
 function apiRequest(method, data, onCallback) {
-    // const authData = Telegram.WebApp.initData || '';
-    const authData = "query_id=AAF38FZLAAAAAHfwVkucT8nC&user=%7B%22id%22%3A1263988855%2C%22first_name%22%3A%22Jamoliddin%22%2C%22last_name%22%3A%22Arabboyev%22%2C%22username%22%3A%22XTerraName%22%2C%22language_code%22%3A%22uz%22%7D&auth_date=1684860470&hash=06332f00c45fe80a0b77915907c71920be2787719498233011712318f514a1a5";
+    const authData = Telegram.WebApp.initData || '';
 
     const options = {
         method: method,
